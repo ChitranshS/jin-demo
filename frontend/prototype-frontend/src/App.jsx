@@ -1,18 +1,34 @@
-import React from 'react';
-import RobotDetails from './RobotDetails';
-import 'primereact/resources/themes/saga-blue/theme.css';  // Choose a theme
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
-import 'primeflex/primeflex.css';
-
+import React, { useState } from 'react';
+import { ChakraProvider, Box, Heading, Button, VStack, HStack, Flex, Center } from '@chakra-ui/react';
+import RobotDetails from './RobotDetails'; // Ensure the path is correct
 
 const App = () => {
-  const robotName = 'IRB1300'; // or get this dynamically based on user input or route parameters
+  const [selectedRobot, setSelectedRobot] = useState('IRB1300');
+
+  const robotNames = ['IRB1300', 'IRB1200-7']; // Add other robot names as needed
 
   return (
-    <div>
-      <RobotDetails robotName={robotName} />
-    </div>
+    <ChakraProvider>
+      <Box textAlign="center" p={10}>
+        <Heading mb={5}>Robot Details</Heading>
+        <Center mb={5}>
+          <HStack spacing={4}>
+            {robotNames.map((name) => (
+              <Button 
+                key={name} 
+                onClick={() => setSelectedRobot(name)} 
+                colorScheme={selectedRobot === name ? 'teal' : 'gray'}
+              >
+                {name}
+              </Button>
+            ))}
+          </HStack>
+        </Center>
+        <Flex justify="center" w="100%">
+          <RobotDetails robotName={selectedRobot} />
+        </Flex>
+      </Box>
+    </ChakraProvider>
   );
 };
 

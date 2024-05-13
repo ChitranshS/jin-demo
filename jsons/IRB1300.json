@@ -1,0 +1,49 @@
+{
+    "Product Name": [
+      "IRB 1300"
+    ],
+    "MANIPULATOR": [
+      "IRB 1300-11/0.9",
+      "ABB Graphite White std",
+      "Base 40",
+      "From side of base"
+    ],
+    "CONTROLLER": [
+      "OmniCore C30",
+      "Desktop",
+      "Max 45deg",
+      "1x220/230V"
+    ],
+    "Mobile network": [
+      "5 port Ethernet switch"
+    ],
+    "FlexPendant 10m": [
+      "Yes"
+    ],
+    "Base Dig. 16In/16Out 1": [
+      "3 modes Keyless"
+    ],
+    "FLOOR CABLES": [
+      "7m"
+    ],
+    "ROBOTWARE": [
+      "World Zones",
+      "Collision detection",
+      "Path Recovery",
+      "RobotStudio Connect",
+      "Essential app package",
+      "Program package"
+    ],
+    "APPLICATION": [
+      "Parallel & Air",
+      "Angled arm CP/CS 1",
+      "7m"
+    ],
+    "WARRANTY": [
+      "Standard Warranty"
+    ],
+    "ADDITIONAL OPTIONS": [
+      "CN Standard"
+    ]
+  }
+  

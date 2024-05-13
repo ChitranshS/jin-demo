@@ -16,7 +16,7 @@ app.use(cors());
 
 
 // Route to insert a new robot and its associated data
-app.post('/robots', async (req, res) => {
+app.post('/robots/insert', async (req, res) => {
     const session = await mongoose.startSession();
     try {
         session.startTransaction();

@@ -15,8 +15,7 @@ import {
   Flex,
   useColorModeValue,
   ScaleFade,
-  Badge,
-  Center
+  Badge
 } from '@chakra-ui/react';
 import './RobotDetails.css';  // Assuming you will add some global styles here
 
@@ -108,8 +107,8 @@ const RobotDetails = ({ robotName }) => {
         </CardBody>
       </Card>
 
-      <Center w="100%">
-        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={4}>
+      <Flex overflowX="auto" w="100%">
+        <SimpleGrid spacing={3} minChildWidth="300px">
           {renderSection('Manipulators', robotData.manipulators)}
           {renderSection('Control Modules', robotData.controlModules)}
           {renderSection('Floors', robotData.floors)}
@@ -119,7 +118,7 @@ const RobotDetails = ({ robotName }) => {
           {renderSection('Applications', robotData.applications)}
           {renderSection('Robotwares', robotData.robotwares)}
         </SimpleGrid>
-      </Center>
+      </Flex>
     </Container>
   );
 };

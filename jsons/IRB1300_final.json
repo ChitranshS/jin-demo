@@ -1,0 +1,75 @@
+{
+  "robotData": {
+      "Id": "IRB1300",
+      "name": "IRB1300"
+  },
+  "manipulators": [
+      {
+          "Id": "IRB1300-11/0.9",
+          "name": "IRB 1300-11/0.9",
+          "properties": {
+              "BaseSize": "Base 40",
+              "BasePosition": "From side of base"
+          }
+      }
+  ],
+  "controllers": [
+      {
+          "Id": "OmniCoreC30",
+          "name": "OmniCore C30",
+          "properties": {
+              "Type": "Desktop",
+              "MaxAngle": "Max 45deg",
+              "Voltage": "1x220/230V",
+              "Network": "5 port Ethernet switch",
+              "FlexPendantLength": "FlexPendant 10m",
+              "SwitchType": "3 modes Keyless",
+              "Temperature": "N/A",
+              "Cover": "N/A"
+          }
+      }
+  ],
+  "floors": [
+      {
+          "Id": "FloorCable7m",
+          "name": "Floor Cables",
+          "length": "7m"
+      }
+  ],
+  "robotwares": [
+      {
+          "Id": "RobotwarePackage",
+          "name": "Robotware",
+          "features": [
+              "World Zones",
+              "Collision detection",
+              "Path Recovery",
+              "RobotStudio Connect",
+              "Essential app package",
+              "Program package"
+          ]
+      }
+  ],
+  "applications": [
+      {
+          "Id": "ParallelAir",
+          "name": "Parallel & Air",
+          "properties": {
+              "PanelType": "Angled arm CP/CS 1",
+              "Modes": "7m"
+          }
+      }
+  ],
+  "warranties": [
+      {
+          "Id": "StandardWarranty",
+          "name": "Standard Warranty"
+      }
+  ],
+  "additionals": [
+      {
+          "Id": "CNStandard",
+          "name": "CN Standard"
+      }
+  ]
+}

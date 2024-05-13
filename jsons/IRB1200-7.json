@@ -1,0 +1,51 @@
+{
+  "Product Name": [
+    "IRB 1200-7/0.7"
+  ],
+  "MANIPULATOR": [
+    "IRB 1200-7/0.7",
+    "ABB Graphite White std",
+    "Standard",
+    "ABB",
+    "Parallel & Air",
+    
+    "Parallel & Air",
+    "Upper arm",
+    "On foot"
+  ],
+  "BASIC": [
+    "Single cabinet",
+    "Prepare for CE and China",
+    "3x400V",
+    "6HSB 6p+PE",
+    "Rotary switch",
+    "Max 45 C",
+    "Connector cover",
+    "Standard Warranty"
+  ],
+  
+  "FLOOR CABLES": [
+    "7m"
+  ],
+  "CONTROL MODULE": [
+    "FlexPendant 10 m",
+    "RS232 Serial channel",
+    "Ethernet RJ45",
+    "Ethernet/IP",
+    "Base Dig. 16In/16Out 1",
+    "24V 4Amps",
+    "Safety internal conn.",
+    "Panel on cabinet",
+    "Key switch, 3 modes"
+  ],
+  "ROBOTWARE": [
+    "RW 6",
+    "World Zones",
+    "Path Recovery",
+    "Collision Detection",
+    "PC Interface"
+  ],
+  "ADDITIONAL OPTIONS": [
+    "SE Standard"
+  ]
+}

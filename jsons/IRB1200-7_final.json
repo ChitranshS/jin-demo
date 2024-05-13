@@ -1,0 +1,82 @@
+{
+  "robotData": {
+      "Id": "IRB1200-7",
+      "name": "IRB1200-7"
+  },
+  "manipulators": [
+      {
+          "Id": "IRB1200-7",
+          "name": "IRB 1200-7",
+          "properties": {
+              "BaseSize": "Standard",
+              "BasePosition": "ABB"
+          }
+      },
+      {
+          "Id": "ParallelAir",
+          "name": "Parallel & Air",
+          "properties": {
+              "Type": "Upper arm",
+              "Position": "On foot"
+          }
+      }
+  ],
+  "basics": [
+      {
+          "Id": "BasicController",
+          "name": "BASIC",
+          "properties": {
+              "Type": "Single cabinet",
+              "Network": "Prepare for CE and China",
+              "Voltage": "3x400V",
+              "FlexPendantLength": "6HSB 6p+PE",
+              "SwitchType": "Rotary switch",
+              "Temperature": "Max 45 C",
+              "Cover": "Connector cover",
+              "Warranty": "Standard Warranty"
+          }
+      }
+  ],
+  "floors": [
+      {
+          "Id": "FloorCable7m",
+          "name": "Floor Cables",
+          "length": "7m"
+      }
+  ],
+  "controlModules": [
+      {
+          "Id": "FlexPendant10m",
+          "name": "FlexPendant 10 m",
+          "features": [
+              "RS232 Serial channel",
+              "Ethernet RJ45",
+              "Ethernet/IP",
+              "Base Dig. 16In/16Out 1",
+              "24V 4Amps",
+              "Safety internal conn.",
+              "Panel on cabinet",
+              "Key switch, 3 modes"
+          ]
+      }
+  ],
+  "robotwares": [
+      {
+          "Id": "RW6",
+          "name": "Robotware",
+          "features": [
+              "RW 6",
+              "World Zones",
+              "Path Recovery",
+              "Collision Detection",
+              "PC Interface"
+          ]
+      }
+  ],
+  "additionals": [
+      {
+          "Id": "SEStandard",
+          "name": "SE Standard"
+      }
+  ]
+}
